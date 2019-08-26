@@ -1,20 +1,28 @@
 /* CONSTANTS */
+$primary-color: #d52f2f;
+$secondary-color: #d52f2f;
+$text-color: #191919;
+$nav-color: #ffffff;
+$bg-color: #fcfcfc;
+
 /* APP STYLES */
 .App {
   text-align: center;
-  background-color: #fcfcfc;
+  background-color: $bg-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #191919; }
+  color: $text-color;
+}
 
 .App-header {
   height: 100%;
-  background-color: #d52f2f;
+  background-color: $primary-color;
   position: fixed;
-  left: 0; }
+  left: 0;
+}
 
 /* NAVIGATION STYLES */
 .navbar {
@@ -23,14 +31,22 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 0px 20px 0px 15px; }
-  .navbar .nav-link {
-    color: #ffffff;
+  padding: 0px 20px 0px 15px;
+
+  .nav-link {
+    color: $nav-color;
     text-decoration: none;
     padding: 10px;
     display: block;
-    transition: all 0.3s; }
-    .navbar .nav-link:hover {
-      opacity: 0.5; }
-  .navbar .active {
-    text-decoration: underline; }
+    transition: all 0.3s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+
+}
