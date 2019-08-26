@@ -5,16 +5,23 @@
   background-color: #fcfcfc;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #191919; }
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
+  color: #191919;
+  font-family: "Roboto", sans-serif; }
 
 .App-header {
+  display: block;
+  background-color: #8b2f97;
+  flex: 0 0 160px;
+  align-self: stretch; }
+
+.App-content {
   height: 100%;
-  background-color: #d52f2f;
-  position: fixed;
-  left: 0; }
+  display: block;
+  flex-grow: 6;
+  overflow-x: hidden; }
 
 /* NAVIGATION STYLES */
 .navbar {
@@ -27,10 +34,70 @@
   .navbar .nav-link {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px;
     display: block;
     transition: all 0.3s; }
     .navbar .nav-link:hover {
       opacity: 0.5; }
   .navbar .active {
     text-decoration: underline; }
+  .navbar .sub-nav {
+    opacity: 0.75;
+    padding-left: 10px; }
+
+/* BUTTON STYLES */
+.btn {
+  display: block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center; }
+
+.next-btn {
+  background-color: #8b2f97;
+  color: #ffffff; }
+
+.nav-btn {
+  background-color: #8b2f97;
+  color: #ffffff; }
+
+/* CONTENT STYLES */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100vh; }
+  .content-container .content-header {
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 3px #b2b2b2;
+    -moz-box-shadow: 0px 1px 3px #b2b2b2;
+    box-shadow: 0px 1px 3px #b2b2b2; }
+  .content-container .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px 20px; }
+    .content-container .content-section .content-row {
+      width: 97%;
+      text-align: left; }
+
+/* TEXT STYLES */
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 10px; }
+  h1 span {
+    font-size: 24px;
+    font-style: italic; }
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: 0.7; }
+
+p {
+  font-size: 18px;
+  text-align: justify; }

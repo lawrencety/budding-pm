@@ -4,6 +4,7 @@ import './App.css';
 
 import Navigation from './components/Navigation';
 import Home from './components/Home';
+import UnderConstruction from './components/UnderConstruction';
 
 class App extends Component {
   constructor(props) {
@@ -16,7 +17,10 @@ class App extends Component {
         <header className="App-header">
           <Navigation />
         </header>
-        <Route exact path="/" component={Home} />
+        <div className="App-content">
+          <Route exact path="/" component={Home} />
+          <Route path='/404' component={UnderConstruction} />
+        </div>
       </div>
     );
   }

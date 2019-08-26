@@ -1,9 +1,11 @@
 /* CONSTANTS */
-$primary-color: #d52f2f;
-$secondary-color: #d52f2f;
+$primary-color: #8b2f97;
+$secondary-color: #8b2f97;
 $text-color: #191919;
+$line-color: #b2b2b2;
 $nav-color: #ffffff;
 $bg-color: #fcfcfc;
+$font: 'Roboto', sans-serif;
 
 /* APP STYLES */
 .App {
@@ -11,17 +13,25 @@ $bg-color: #fcfcfc;
   background-color: $bg-color;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
   color: $text-color;
+  font-family: $font;
 }
 
 .App-header {
-  height: 100%;
+  display: block;
   background-color: $primary-color;
-  position: fixed;
-  left: 0;
+  flex: 0 0 160px;
+  align-self: stretch;
+}
+
+.App-content {
+  height: 100%;
+  display: block;
+  flex-grow: 6;
+  overflow-x: hidden;
 }
 
 /* NAVIGATION STYLES */
@@ -36,7 +46,6 @@ $bg-color: #fcfcfc;
   .nav-link {
     color: $nav-color;
     text-decoration: none;
-    padding: 10px;
     display: block;
     transition: all 0.3s;
 
@@ -49,4 +58,82 @@ $bg-color: #fcfcfc;
     text-decoration: underline;
   }
 
+  .sub-nav {
+    opacity: 0.75;
+    padding-left: 10px;
+  }
+}
+
+/* BUTTON STYLES */
+.btn {
+  display: block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+}
+
+.next-btn {
+  background-color: $primary-color;
+  color: $nav-color;
+}
+
+.nav-btn {
+  background-color: $primary-color;
+  color: $nav-color;
+}
+
+/* CONTENT STYLES */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-height: 100vh;
+
+  .content-header {
+    width: 100%;
+    -webkit-box-shadow:0px 1px 3px $line-color;
+    -moz-box-shadow:0px 1px 3px $line-color;
+    box-shadow:0px 1px 3px $line-color;
+  }
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px 20px;
+
+    .content-row {
+      width: 97%;
+      text-align: left;
+    }
+  }
+}
+
+/* TEXT STYLES */
+
+h1 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 10px;
+
+  span {
+    font-size: 24px;
+    font-style: italic;
+  }
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
 }
