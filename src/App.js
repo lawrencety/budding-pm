@@ -4,6 +4,7 @@ import './App.css';
 
 import Navigation from './components/Navigation';
 import Home from './components/Home';
+import Product from './components/Product';
 import UnderConstruction from './components/UnderConstruction';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         </header>
         <div className="App-content">
           <Route exact path="/" component={Home} />
+          <Route exact path="/what-is-product-management" component={Product} />
           <Route path='/404' component={UnderConstruction} />
         </div>
       </div>

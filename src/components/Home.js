@@ -37,7 +37,7 @@ class Home extends Component {
           <div className="content-row">
             <h2>How to Use this Site</h2>
             <p>
-              This site is a pretty straightforward guide meant to serve as a step-by-step guide. The left-hand side will navigate you to each phase of the Product Development Life Cycle
+              This site is a pretty straightforward guide meant to serve as a step-by-step guide. The left-hand side will navigate you to each phase of the Product Development Life Cycle. This site is a work-in-progress and there will be several pages that are still under construction.
             </p>
           </div>
           <div className="content-row">
