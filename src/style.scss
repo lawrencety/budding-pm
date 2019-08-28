@@ -105,14 +105,12 @@ $font: 'Roboto', sans-serif;
   .content-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px 20px;
     z-index: 9;
 
     .content-row {
-      width: 97%;
       text-align: left;
     }
   }
@@ -141,6 +139,7 @@ p {
   font-size: 18px;
   text-align: justify;
   line-height: 22px;
+  padding: 0px 10px;
 }
 
 /* IMAGE STYLES */
