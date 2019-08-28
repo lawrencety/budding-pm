@@ -14,6 +14,7 @@ class Product extends Component {
             <span>What is</span><br></br>
             Product Management?
           </h1>
+          <img className="logo" src={require("../images/budding-pm-logo.png")}></img>
         </div>
         <div className="content-section">
           <div className="content-row">
@@ -30,7 +31,7 @@ class Product extends Component {
           <div className="content-row">
             <h2>Prioritization</h2>
             <p>
-              Being the Customer Champion doesn't necessarily mean rejecting all ideas that don't increase customer value. If your engineering team has built up significant technical debt, it may also be wise to pause adding new functions and focus on eliminating the debt. Instead, the PM must be able to understand tradeoffs and prioritize between between refactoring code vs building new features. 
+              Being the Customer Champion doesn't necessarily mean rejecting all ideas that don't increase customer value. If your engineering team has built up significant technical debt, it may also be wise to pause adding new functions and focus on eliminating the debt. Instead, the PM must be able to understand tradeoffs and prioritize between between refactoring code vs building new features.
             </p>
           </div>
           <Link className="btn next-btn" to="/understanding-the-company">Understand the Company</Link>

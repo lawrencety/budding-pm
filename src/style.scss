@@ -4,7 +4,8 @@ $secondary-color: #8b2f97;
 $text-color: #191919;
 $line-color: #b2b2b2;
 $nav-color: #ffffff;
-$bg-color: #fcfcfc;
+$bg-color: #f0f0f0;
+$header-bg-color: #fcfcfc;
 $font: 'Roboto', sans-serif;
 
 /* APP STYLES */
@@ -94,9 +95,11 @@ $font: 'Roboto', sans-serif;
 
   .content-header {
     width: 100%;
+    background-color: $header-bg-color;
     -webkit-box-shadow:0px 1px 3px $line-color;
     -moz-box-shadow:0px 1px 3px $line-color;
     box-shadow:0px 1px 3px $line-color;
+    z-index: 10;
   }
 
   .content-section {
@@ -106,6 +109,7 @@ $font: 'Roboto', sans-serif;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px 20px;
+    z-index: 9;
 
     .content-row {
       width: 97%;
@@ -150,4 +154,10 @@ p {
 .figure {
   height: 40vh;
   margin: auto;
+}
+
+.portrait {
+  height: 30vh;
+  margin: auto;
+  border-radius: 50%;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
-class Template extends Component {
+class About extends Component {
   constructor(props) {
     super(props);
   }
@@ -11,9 +11,10 @@ class Template extends Component {
       <div className="content-container">
         <div className="content-header">
           <h1>
-            <span>small title</span><br></br>
-            Big Title
+            <span>Hello World, I am</span><br></br>
+            Lawrence Yen
           </h1>
+          <img className="logo" src={require("../images/budding-pm-logo.png")}></img>
         </div>
         <div className="content-section">
           <div className="content-row">
@@ -36,4 +37,4 @@ class Template extends Component {
   }
 }
 
-export default Template;
+export default About;
