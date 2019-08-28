@@ -22,6 +22,7 @@ class Product extends Component {
               A Product Manager typically has one job, to make a product successful. This means interfacing with various teams across the company to move a product forward. Typically, these teams are the Design, Engineering, and Marketing teams. There may be others such as Sales, Customer Support, and Executives. The main goal of a PM is to communicate his/her vision of the product to each of these teams. These teams will each do their part to accomplish this vision. However, usually none of these teams report directly to the PM, making this communication and direction more of a two-way discussion and collaboration taking into account the opinions and thoughts of other teams to build a more cohesive and stronger product.
             </p>
           </div>
+          <img className="figure" src={require("../images/pm-triangle.png")}></img>
           <div className="content-row">
             <h2>Customer Champion</h2>
             <p>
