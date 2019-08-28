@@ -14,6 +14,7 @@ class Home extends Component {
             <span>A Brief Guide for the</span><br></br>
             Budding Product Manager
           </h1>
+          <img className="logo" src={require("../images/budding-pm-logo.png")}></img>
         </div>
         <div className="content-section">
           <div className="content-row">
@@ -29,7 +30,9 @@ class Home extends Component {
             <p>
               This site is meant for those who are either curious about product management (whether you're a developer, design, or even CEO) or someone just starting their PM careers and would like some structure to how they execute their responsibilities. We will cover the Product Development Life Cycle and discuss tools we can use for each step along the way. Whether the product is a brand new blue-sky product or you are implementing maintenance features, this guide will be able to help you along each step.
             </p>
-            <p>IMAGE HERE</p>
+          </div>
+          <img className="figure" src={require("../images/pm-triangle.png")}></img>
+          <div className="content-row">
             <p>
               There are many successful ways to be a Product Manager and this is by no means the best or only way. Every company, product, and team is different. So not everything discussed here may apply to your situation.
             </p>

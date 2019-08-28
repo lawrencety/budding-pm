@@ -102,3 +102,14 @@ p {
   font-size: 18px;
   text-align: justify;
   line-height: 22px; }
+
+/* IMAGE STYLES */
+.logo {
+  width: 80px;
+  position: absolute;
+  top: 18px;
+  right: 10px; }
+
+.figure {
+  height: 40vh;
+  margin: auto; }
