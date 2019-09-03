@@ -44,6 +44,18 @@ class Product extends Component {
               After we have figured out customer intent and the product's next steps, PMs must communicate that vision to the various teams. Typically, these teams are the Design, Engineering, and Marketing teams. There may be others such as Sales, Customer Support, and Executives. The main goal of a PM is to communicate his/her vision of the product to each of these teams. These teams will each do their part to accomplish this vision. However, usually none of these teams report directly to the PM, making this communication and direction more of a two-way discussion and collaboration taking into account the opinions and thoughts of other teams to build a more cohesive and stronger product.
             </p>
           </div>
+          <div className="content-row">
+            <h3>Data & Analysis</h3>
+            <p>
+              Leveraging data is critical for any PM to be able to understand what is going on with a product and how customers are interacting with it. Data does not only mean metrics and quantitative information, PMs must also use qualitative data such as interviews and customer feedback to build a holistic picture into customer behavior. Gathering data can be as simple as plugging in analytics tools, drawing insights is where it can get challenging.
+            </p>
+          </div>
+          <div className="content-row">
+            <h3>Technology</h3>
+            <p>
+              Technical expertise amoung PMs is somewhat of a controversial topic. More and more companies and leaders are saying that technical expertise is no longer required to be a successful PM. In my opinion, this is partially true. There is no need for PMs to fully understand the inner workings of each algorithm nor are they expected to design a system architecture. Instead, PMs need foundational technical knowledge to be able to communicate with developers and tech leads. Those with zero technical knowledge will struggle to define product scopes that are feasible or simply given, causing friction between the PM and development.
+            </p>
+          </div>
           <Link className="btn next-btn" to="/understanding-the-company">Understand the Company</Link>
         </div>
       </div>

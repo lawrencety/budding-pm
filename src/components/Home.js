@@ -26,7 +26,7 @@ class Home extends Component {
           </div>
           <Link className="btn nav-btn" to="/about-me">About the Creator</Link>
           <div className="content-row">
-            <h2>Purpose</h2>
+            <h3>Purpose</h3>
             <p>
               This site is meant for those who are either curious about product management (whether you're a developer, design, or even CEO) or someone just starting their PM careers and would like some structure to how they execute their responsibilities. We will cover the Product Development Life Cycle and discuss tools we can use for each step along the way. Whether the product is a brand new blue-sky product or you are implementing maintenance features, this guide will be able to help you along each step.
             </p>
@@ -38,13 +38,13 @@ class Home extends Component {
             </p>
           </div>
           <div className="content-row">
-            <h2>How to Use this Site</h2>
+            <h3>How to Use this Site</h3>
             <p>
               This site is a pretty straightforward guide meant to serve as a step-by-step guide. The left-hand side will navigate you to each phase of the Product Development Life Cycle. This site is a work-in-progress and there will be several pages that are still under construction.
             </p>
           </div>
           <div className="content-row">
-            <h2>Shout-Outs</h2>
+            <h3>Shout-Outs</h3>
             <p>
               As a PM it is important to give credit where credit is due. Though I come from a background of Product Managment, it would not be possible for me to create this site if not for a couple of key resources. Though created as a marketing tool, The Product Book decidely has quite a lot of information for the new PM.
             </p>
