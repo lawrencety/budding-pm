@@ -18,21 +18,30 @@ class Product extends Component {
         </div>
         <div className="content-section">
           <div className="content-row">
+            <h2>The Product Manager</h2>
             <p>
-              A Product Manager typically has one job, to make a product successful. This means interfacing with various teams across the company to move a product forward. Typically, these teams are the Design, Engineering, and Marketing teams. There may be others such as Sales, Customer Support, and Executives. The main goal of a PM is to communicate his/her vision of the product to each of these teams. These teams will each do their part to accomplish this vision. However, usually none of these teams report directly to the PM, making this communication and direction more of a two-way discussion and collaboration taking into account the opinions and thoughts of other teams to build a more cohesive and stronger product.
+              In my definition, a Product Manager typically has one goal, to make a product successful. This goal can be done through various means and methods, but the goal is product success. Depending on the phase of a product or goal of a company, the definition of product success may vary.
+
+              There are many types of Product Managers, but what sets great PMs apart from good ones is their soft skills. Technology, methodology, and other hard skills can be taught and learned easily. Soft skills come with experience. That is not to say technical PMs will not be successful, rather PMs with a combination of strong soft skills and hard skills will be able to produce and target their products for efficiently and effectively. Below are some of the soft skills that great Product Managers need to be successful.
             </p>
           </div>
           <img className="figure" src={require("../images/pm-triangle.png")}></img>
           <div className="content-row">
-            <h2>Customer Champion</h2>
+            <h3>Customer Champion</h3>
             <p>
-              Working with so many teams and incorporating their feedback can lead to a loss of direction. This is where the PM can really shine. While each team represents a certain part of the product, the PM represents the customer. This means saying "No" to great ideas that doesn't actually make customers happy. The Product Manager is the customer's champion and must maintain the voice of the customer throughout the product development process.
+              Ultimately, to make a product successful, the PM needs to listen to the customer rather than following every internal request. While the company and its teams has their own thoughts and opinions about a product, the PM must represent the customer. This means saying "No" to great ideas that doesn't actually make customers happy. The Product Manager is the customer's champion and must maintain the voice of the customer throughout the product development process. This guide will provide several ways a PM could gain feedback to understand the user.
             </p>
           </div>
           <div className="content-row">
-            <h2>Prioritization</h2>
+            <h3>Prioritization</h3>
             <p>
-              Being the Customer Champion doesn't necessarily mean rejecting all ideas that don't increase customer value. If your engineering team has built up significant technical debt, it may also be wise to pause adding new functions and focus on eliminating the debt. Instead, the PM must be able to understand tradeoffs and prioritize between between refactoring code vs building new features.
+              Being the Customer Champion doesn't necessarily mean rejecting all ideas that don't increase customer value. If your engineering team has built up significant technical debt, it may also be wise for the long-term to pause adding new functions and focus on eliminating the debt. Every team has limited resources and time, PMs must be able to prioritize effectively and decide what would be the bext course of action for a product would be. We will explore the tools PMs can use to make this decision.
+            </p>
+          </div>
+          <div className="content-row">
+            <h3>Communication</h3>
+            <p>
+              After we have figured out customer intent and the product's next steps, PMs must communicate that vision to the various teams. Typically, these teams are the Design, Engineering, and Marketing teams. There may be others such as Sales, Customer Support, and Executives. The main goal of a PM is to communicate his/her vision of the product to each of these teams. These teams will each do their part to accomplish this vision. However, usually none of these teams report directly to the PM, making this communication and direction more of a two-way discussion and collaboration taking into account the opinions and thoughts of other teams to build a more cohesive and stronger product.
             </p>
           </div>
           <Link className="btn next-btn" to="/understanding-the-company">Understand the Company</Link>
