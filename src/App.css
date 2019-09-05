@@ -104,6 +104,8 @@ p {
   text-align: justify;
   line-height: 22px;
   padding: 0px 10px; }
+  p .italics {
+    font-style: italic; }
 
 /* IMAGE STYLES */
 .logo {
