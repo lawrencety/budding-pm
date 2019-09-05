@@ -41,7 +41,7 @@ class Understand extends Component {
               The main tool PMs and User Researchers use to define their audience is through a persona. Personas are hypothetical people that exhibit real characteristics and behavior. They can be Executive Erica, Mommy Mary, or College Student Chris. Regardless, these are examples of people who the product will most likely be targeting. There are many different ways of building a persona, in my version, personas are created with four sections, Bio, Needs, Pains, and Goals, see figure below for examples. The Bio section contains the name, a picture/drawing, demographics, and general facts about the persona. Needs discuss what the persona needs to do on a daily basis. Pains encompass what prevents them from accomplishing their needs or goals. Lastly Goals are long term visions or the mission of the persona.
             </p>
           </div>
-          //<img className="figure" src={require("../images/persona-canvas.png")}></img>
+          
           <div className="content-row">
             <p>
               Whether your product is for the consumer (B2C) or for another business (B2B), build out a persona for each of the customer segments that will be interacting with your product. These persona canvases allows PMs to imagine ourselves in the target audience's shoes, trying to go about our day to day and the problems the persona may encounter. The product or feature we decide to build should either help them with their Needs or reduce their Pains. But it should always help the persona move close to their Goal, or the "Why".
