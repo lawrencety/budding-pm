@@ -12,7 +12,7 @@ class Navigation extends Component {
         <NavLink className="nav-link" exact to="/">Home</NavLink>
         <NavLink className="nav-link" to="/what-is-product-management">What is PM?</NavLink>
           <NavLink className="nav-link sub-nav" to="/understanding-the-company">Understand</NavLink>
-          <NavLink className="nav-link sub-nav" to="/create-an-opportunity-hypothesis">Hypothesize</NavLink>
+          <NavLink className="nav-link sub-nav" to="/404">Hypothesize</NavLink>
           <NavLink className="nav-link sub-nav" to="/404">Validate</NavLink>
           <NavLink className="nav-link sub-nav" to="/404">Execute</NavLink>
           <NavLink className="nav-link sub-nav" to="/404">Design</NavLink>
@@ -28,6 +28,7 @@ class Navigation extends Component {
 export default Navigation;
 
 /*
+<NavLink className="nav-link sub-nav" to="/create-an-opportunity-hypothesis">Hypothesize</NavLink>
 <NavLink className="nav-link sub-nav" to="/validating-your-hypothesis">Validate</NavLink>
 <NavLink className="nav-link sub-nav" to="/from-idea-to-action">Execute</NavLink>
 <NavLink className="nav-link sub-nav" to="/working-with-design">Design</NavLink>
